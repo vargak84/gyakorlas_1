@@ -1,0 +1,29 @@
+html {
+    background: lightblue;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: indianred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: red;
+    font-family:fantasy;
+}
+
+#elsoH3 {
+    color: maroon;
+}
+
+p {
+    color: saddlebrown;
+}
+
+img {
+    height: 300px;
+}

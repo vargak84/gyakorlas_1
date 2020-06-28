@@ -47,3 +47,17 @@ img {
 #rendezetlenLista {
     font-size: 20px;
 }
+
+.tartalom {
+    font-size: large;
+}
+.kover {
+    font-size: 25px;
+}
+.kepek {
+    background-color: crimson;
+    margin: 1%;
+    border: solid 2px black;
+    padding: 10px;
+    box-shadow: 3px 3px 2px grey;
+}

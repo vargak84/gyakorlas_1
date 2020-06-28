@@ -1,9 +1,20 @@
+@font-face {
+    font-family: OswaldMedium;
+    src: url(/fonts/oswald/Oswald-Medium.ttf);
+}
+
 html {
     background: lightblue;
 }
 
+#navbar {
+    font-size: 20px;
+}
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blue;
+    text-align: center;
 }
 
 h2 {
@@ -19,11 +30,20 @@ h3 {
 #elsoH3 {
     color: maroon;
 }
+#elsoP{
+    text-transform: capitalize;
+}
 
 p {
     color: saddlebrown;
+    font-family: "OswaldMedium";
+    text-align: justify;
 }
 
 img {
     height: 300px;
+}
+
+#rendezetlenLista {
+    font-size: 20px;
 }

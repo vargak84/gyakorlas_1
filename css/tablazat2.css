@@ -1,0 +1,13 @@
+body {
+    background-color: burlywood;
+}
+
+.col8Div {
+    border: solid 2px grey;
+    box-shadow: 10px 10px 10px black;
+    background-color: white;
+}
+
+.h1 {
+    text-shadow: 10px 10px 10px black;
+}

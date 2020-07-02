@@ -1,0 +1,17 @@
+.fieldSzem {
+    display: inline-block;
+    border: solid 1px black;
+    box-shadow: 20px 20px 30px gray;
+}
+
+.mezoDiv {
+    display: block;
+}
+legend {
+    font-size: 20px;
+    color: hotpink;
+}
+.btn {
+    border: solid 1px red;
+    box-shadow: 3px 3px 10px black;
+}

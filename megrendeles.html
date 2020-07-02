@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/megrendeles.css">
+    <title>Megrendelés</title>
+</head>
+
+<body>
+    <form>
+        <fieldset class="fieldSzem">
+            <legend>Személyes adatok</legend>
+            <div>
+                <div class="mezoDiv">
+                    <label for="">Név</label>
+                    <input type="text" class="name" id="name">
+                </div>
+                <div class="mezoDiv">
+                    <label for="">E-mail cím</label>
+                    <input type="email" class="email" id="email">
+                </div>
+                <div class="mezoDiv">
+                    <label for="">Cím</label>
+                    <input type="text" class="address" id="address">
+                </div>
+                <div class="mezoDiv">
+                    <label for="">Megjegyzés</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <label for="mezoDiv">Nem vagyok robot</label>
+                    <input type="checkbox" name="notRobot" id="notRobot">
+                </div>
+            </div>
+        </fieldset>
+        <div>
+            <button class="btn">Küldés</button>
+        </div>
+    </form>
+</body>
+
+</html>

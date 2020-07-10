@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.lejatszo {
+border: solid 2px white;
+box-shadow: 2px 2px 10px white;
+padding: 10px;
+}
+
+.h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}

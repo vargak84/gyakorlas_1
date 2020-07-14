@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/matekmuveletek.css">
+    <title>Matematikai műveletek</title>
+</head>
+
+<body>
+    <h1 class="h1">Matematikai műveletek</h1>
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div class="row">
+                <div class="col-6">
+                    <h3>Összeadás</h3>
+                    <form action="">
+                        <label for="">Szám 1</label>
+                        <input id="plszam1" type="number">
+                    </form>
+                    <form action="">
+                        <label for="">Szám 2</label>
+                        <input id="plszam2" type="number">
+                    </form>
+                    <button onclick="osszeadas()" type="button">Számol</button>
+                </div>
+                <div class="col-6">
+                    <h3>Kivonás</h3>
+                    <form action="">
+                        <label for="">Szám 1</label>
+                        <input id="minszam1" type="number">
+                    </form>
+                    <form action="">
+                        <label for="">Szám 2</label>
+                        <input id="minszam2" type="number">
+                    </form>
+                    <button onclick="kivonas()" type="button">Számol</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h3>Szorzás</h3>
+                    <form action="">
+                        <label for="">Szám 1</label>
+                        <input id="szorszam1" type="number">
+                    </form>
+                    <form action="">
+                        <label for="">Szám 2</label>
+                        <input id="szorszam2" type="number">
+                    </form>
+                    <button onclick="szorzas()" type="button">Számol</button>
+                </div>
+                <div class="col-6">
+                    <h3>Osztás</h3>
+                    <form action="">
+                        <label for="">Szám 1</label>
+                        <input id="osztszam1" type="number">
+                    </form>
+                    <form action="">
+                        <label for="">Szám 2</label>
+                        <input id="osztszam2" type="number">
+                    </form>
+                    <button onclick="osztas()" type="button">Számol</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-2"></div>
+    </div>
+
+<script src="/js/matekmuveletek.js"></script>
+
+</body>
+
+</html>

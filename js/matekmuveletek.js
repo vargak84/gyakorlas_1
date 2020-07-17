@@ -1,8 +1,10 @@
 function osszeadas() {
     let plszam1 = document.querySelector("input[id='plszam1']");
     let plszam2 = document.querySelector("input[id='plszam2']");
+    let plEredmenykiiras = document.querySelector("span[id='plEredmenykiiras']");
     let pleredmeny = parseInt(plszam1.value) + parseInt(plszam2.value);
-    alert("Az összeadás eredménye: " + pleredmeny);
+    plEredmenykiiras.innerHTML = pleredmeny;
+    // alert("Az összeadás eredménye: " + pleredmeny);
 }
 
 function kivonas() {

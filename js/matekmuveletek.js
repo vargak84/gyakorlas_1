@@ -1,10 +1,26 @@
 function osszeadas() {
     let plszam1 = document.querySelector("input[id='plszam1']");
     let plszam2 = document.querySelector("input[id='plszam2']");
-    let plEredmenykiiras = document.querySelector("span[id='plEredmenykiiras']");
-    let pleredmeny = parseInt(plszam1.value) + parseInt(plszam2.value);
-    plEredmenykiiras.innerHTML = pleredmeny;
-    // alert("Az összeadás eredménye: " + pleredmeny);
+    let vizsgalo1 = parseInt (plszam1.value);
+    let vizsgalo2 = parseInt (plszam2.value);
+    if (isNaN (vizsgalo1)) {
+        alert("Írjon be számot a Szám 1 mezőbe!");
+        return;
+    }
+
+    if (isNaN (vizsgalo2)) {
+        alert("Írjon be számot a Szám 2 mezőbe!");
+        return;
+    }
+
+    if ( vizsgalo1 > 1000 || vizsgalo1 <0 || vizsgalo2 > 1000 || vizsgalo2 <0) {
+        alert ('Rossz számot adott meg!');
+    } else {
+        let plEredmenykiiras = document.querySelector("span[id='plEredmenykiiras']");
+        let pleredmeny = parseInt(plszam1.value) + parseInt(plszam2.value);
+        plEredmenykiiras.innerHTML = pleredmeny;
+        // alert("Az összeadás eredménye: " + pleredmeny);
+    }
 }
 
 function kivonas() {

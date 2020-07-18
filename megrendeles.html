@@ -31,48 +31,34 @@
             </form>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-2">
-                
-            </div>
-            <div class="col-6">
-                <form>
-                    <fieldset class="fieldSzem">
-                        <legend>Személyes adatok</legend>
-                        <div>
-                            <div class="mezoDiv">
-                                <label for="">Név</label>
-                                <input type="text" class="name" id="name">
-                            </div>
-                            <div class="mezoDiv">
-                                <label for="">E-mail cím</label>
-                                <input type="email" class="email" id="email">
-                            </div>
-                            <div class="mezoDiv">
-                                <label for="">Cím</label>
-                                <input type="text" class="address" id="address">
-                            </div>
-                            <div class="mezoDiv">
-                                <label for="">Megjegyzés</label>
-                                <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
-                            </div>
-                            <div>
-                                <label for="mezoDiv">Nem vagyok robot</label>
-                                <input type="checkbox" name="notRobot" id="notRobot">
-                            </div>
-                        </div>
-                    </fieldset>
-                    <div>
-                        <button type="button" class="btn btn-success">Küldés</button>
-                    </div>
+
+    <div>
+        <h1>Hamburger rendelés</h1>
+    </div>
+
+    <div style="text-align: center;" class="row">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <div>
+                <h5>Egységár: 1200Ft</h5>
+                <form action="">
+                    <label for="">Mennyiség</label>
+                    <input type="number" id="mennyiseg" value="1">
                 </form>
-            </div>
-            <div class="col-2">
-                
+                <small>Maximum 10db rendelhető</small>
+                <div>
+                    A fizetendő összeg: <small id="osszeg">0</small> Ft
+                </div>
+                <div>
+                    <button onclick="megrendeles()" type="button">Megrendelés</button>
+                </div>
             </div>
         </div>
+        <div class="col-2"></div>
     </div>
+
+    <script src="/js/megrendeles.js"></script>
+
 </body>
 
 </html>

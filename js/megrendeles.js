@@ -27,3 +27,12 @@ function vegosszeg(parsMennyiseg) {
     let fizetendoOsszegMezo = document.querySelector("small[id='osszeg']");
     fizetendoOsszegMezo.innerHTML = fizetendoOsszeg
 }
+
+document.getElementById("feltet");
+
+let input = document.querySelectorAll("input")
+
+for (let i = 0; i < input.length; i++) {
+    input[i].type = "password";
+}
+

@@ -30,9 +30,30 @@ function vegosszeg(parsMennyiseg) {
 
 document.getElementById("feltet");
 
-let input = document.querySelectorAll("input")
+//let input = document.querySelectorAll("input")
 
-for (let i = 0; i < input.length; i++) {
-    input[i].type = "password";
+//for (let i = 0; i < input.length; i++) {
+//    input[i].value = 5;
+//}
+
+let bezargomb = document.querySelector(".close");
+function bezar() {
+    bezargomb.parentElement.style.display = "none";
 }
 
+//Select elem kitöltése
+let feltetek = [
+    "Szalonna",
+    "Extra hagyma",
+    "Tükörtojás",
+    "Libamáj",
+    "Extra sonka"
+];
+let feltetmezo = document.querySelector("#feltet");
+
+for (let index = 0; index < feltetek.length; index++) {
+    let option = document.createElement("option");
+    option.value = index;
+    option.innerHTML = feltetek[index];
+    feltetmezo.appendChild(option);
+};
